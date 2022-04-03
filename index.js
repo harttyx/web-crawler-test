@@ -1,5 +1,4 @@
 const express = require("express");
-const puppeteer = require("puppeteer");
 const browserObject = require('./browser');
 const scraperController = require('./pageController');
 const cors = require("cors");
