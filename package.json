@@ -4,6 +4,7 @@
   "description": "web crawler for specified websites",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/harttyx/web-crawler-test/issues"
   },
-  "homepage": "https://github.com/harttyx/web-crawler-test#readme"
+  "homepage": "https://github.com/harttyx/web-crawler-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "puppeteer": "^13.5.2"
+  }
 }
