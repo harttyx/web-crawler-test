@@ -12,7 +12,7 @@ async function scrapeAll(browserInstance, req, res){
 			res.status(200).send(response);
 		}
 		catch(err){
-			res.status(500).send('Could not crawl through the site given.');
+			res.status(500).send('Could not crawl through the site given, make sure it is a valid URL.');
 		}
 	}
 	
